@@ -1,0 +1,31 @@
+{
+  "name": "clean-javascript",
+  "version": "1.0.0",
+  "description": "Repo for the course \"The road to Clean Code with JavaScript: how to write better code\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drdpedroso/clean-javascript.git"
+  },
+  "author": "Eduardo Pedroso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drdpedroso/clean-javascript/issues"
+  },
+  "homepage": "https://github.com/drdpedroso/clean-javascript#readme",
+  "dependencies": {
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0"
+  }
+}
