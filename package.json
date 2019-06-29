@@ -4,7 +4,8 @@
   "description": "Repo for the course \"The road to Clean Code with JavaScript: how to write better code\"",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "jest": {
     "transform": {
@@ -22,10 +23,16 @@
   },
   "homepage": "https://github.com/drdpedroso/clean-javascript#readme",
   "dependencies": {
+    "eslint-plugin-jest": "^22.7.1",
     "jest": "^24.8.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.4.5",
-    "babel-jest": "^24.8.0"
+    "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "prettier": "1.18.2"
   }
 }
