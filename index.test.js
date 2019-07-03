@@ -1,5 +1,5 @@
-import { sum } from "./index";
+import { mockUser } from "./mock";
 
-it("test sum", () => {
-  expect(sum(10, 2)).toEqual(12);
+describe("index.js", () => {
+  it("should get formatted user information", () => {});
 });
