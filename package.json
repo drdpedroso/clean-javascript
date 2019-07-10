@@ -24,6 +24,7 @@
   "homepage": "https://github.com/drdpedroso/clean-javascript#readme",
   "dependencies": {
     "eslint-plugin-jest": "^22.7.1",
+    "faker": "^4.1.0",
     "jest": "^24.8.0"
   },
   "devDependencies": {
